@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+
+
+html{
+    height: 100vh;
+}
+
+body{
+    height: 100vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+   
+}
+
+
+.container-fluid#contact {
+    background-color: rgb(44, 157, 233);
+    color: white;
+}
+
+.container-fluid#logo {
+    background-color: rgb(241, 240, 240);
+    
+}
+
+.container-fluid#about{
+    background-color: rgb(233, 235, 235) ;
+ 
+    
+}
+
+
+.contianer-fluid#cons {
+    background-color:rgb(241, 240, 240);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+      scroll-behavior: smooth;
+    }
+  }
